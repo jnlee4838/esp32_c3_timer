@@ -1,0 +1,8 @@
+# This file was generated using idf.py save-defconfig. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) Project Minimal Configuration
+#
+
+# Disable nano printf, because we need to print the timer count in %llu format
+CONFIG_NEWLIB_NANO_FORMAT=n
+# CONFIG_ESP_TIMER_PROFILING=y
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
