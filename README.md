@@ -15,23 +15,12 @@ As there is no usb-uart bridge circuit in **this tiny gateway board**, it uses t
 
 ![esp32 rs400950 tiny gateway bottom description](images/esp32_rs400950_tiny_gw_bottom_description.jpg)
 
-## Buy
-
-* For an inquiry, [**email me**](jnlee4838@gmail.com)
-
-### Korea
-
-* Smartstore: [**Buy Here**](https://smartstore.naver.com/radiosystek)
-
-### International
-
-* Ebay: Not yet
 
 ## Preparation
 
 We are going to use ESP-IDF version 5.4.3 in this project, you should install and set up your own IDE, toolchain, etc. and the demo environment is Windows 11 & VS Code.
 
-* Prepare [**esp32 rs400950 tiny gateway**](https://github.com/jnlee4838/esp32c3_led_blink) or any ESP32 C3 dev kit.
+* Prepare any ESP32 C3 dev kit.
 
 * You'd better install Python & Git before installing the followings in case your OS is Windows.
 
