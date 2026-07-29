@@ -5,17 +5,6 @@ It's a simple demonstation of LED blink in ESP32-C3. and There are three differe
 
 As there is no usb-uart bridge circuit in **this tiny gateway board**, it uses the builtin native USB from ESP32-C3 (GPIO18: D-) (GPIO19: D+). thus it uses usb-serial-jtag. it is better than one which has a usb to uart bridge circuit. you don't need to press the boot and reset buttons manually as well.
 
-## Screenshots
-
-![esp32 rs400950 tiny gateway top](images/esp32_rs400950_tiny_gw_top.jpg)
-
-![esp32 rs400950 tiny gateway bottom](images/esp32_rs400950_tiny_gw_bottom.jpg)
-
-![esp32 rs400950 tiny gateway top description](images/esp32_rs400950_tiny_gw_top_description.jpg)
-
-![esp32 rs400950 tiny gateway bottom description](images/esp32_rs400950_tiny_gw_bottom_description.jpg)
-
-
 ## Preparation
 
 We are going to use ESP-IDF version 5.4.3 in this project, you should install and set up your own IDE, toolchain, etc. and the demo environment is Windows 11 & VS Code.
